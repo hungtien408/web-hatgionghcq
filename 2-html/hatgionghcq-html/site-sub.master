@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-sub.master.cs" Inherits="site_sub" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="wrapper-content">
+        <div class="container">
+            <div class="page-main">
+                <asp:ContentPlaceHolder ID="cphSite" runat="server">
+                </asp:ContentPlaceHolder>
+                <div class="wrapper-text about-us">
+                    <asp:ContentPlaceHolder ID="cphContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="page-aside">
+                <div class="menu-product">
+                    <ul>
+                        <li><a href="#">Hạt giống Rau</a></li>
+                        <li><a href="#">Hạt giống Củ</a></li>
+                        <li><a href="#">Hạt giống Quả</a></li>
+                        <li><a href="#">Hạt giống Hoa</a></li>
+                        <li><a href="#">Hạt giống Trái Cây</a></li>
+                        <li><a href="#">Hạt giống Thảo Dược</a></li>
+                        <li><a href="#">Hạt giống Cỏ</a></li>
+                        <li><a href="#">Hạt giống Tí Hon</a></li>
+                        <li><a href="#">Hạt giống Khổng Lồ</a></li>
+                    </ul>
+                    <div class="menu-product-footer">
+                        <img class="img-responsive" src="assets/images/bg-pro-menu-footer.png" alt="" />
+                    </div>
+                </div>
+                <div class="news-product">
+                    <h1>Tin tức</h1>
+                    <div class="news-df">
+                        <div class="newsbox">
+                            <div class="box-img">
+                                <a href="#">
+                                    <img src="assets/images/img-news-1.jpg" alt="" /></a>
+                            </div>
+                            <div class="box-name"><a href="#">Những cây dược liệu ngắn ngày tốt nhất.</a></div>
+                        </div>
+                        <div class="newsbox">
+                            <div class="box-img">
+                                <a href="#">
+                                    <img src="assets/images/img-news-2.jpg" alt="" /></a>
+                            </div>
+                            <div class="box-name"><a href="#">Cách trồng hoa treo hiệu quả nhất</a></div>
+                        </div>
+                        <div class="newsbox">
+                            <div class="box-img">
+                                <a href="#">
+                                    <img src="assets/images/img-news-3.jpg" alt="" /></a>
+                            </div>
+                            <div class="box-name"><a href="#">Kĩ thuật trồng hoa hồng tỷ muội</a></div>
+                        </div>
+                        <div class="newsbox">
+                            <div class="box-img">
+                                <a href="#">
+                                    <img src="assets/images/img-news-4.jpg" alt="" /></a>
+                            </div>
+                            <div class="box-name"><a href="#">Cách tiết kiệm diện tích trồng hạt giống nhất</a></div>
+                        </div>
+                        <div class="newsbox">
+                            <div class="box-img">
+                                <a href="#">
+                                    <img src="assets/images/img-news-5.jpg" alt="" /></a>
+                            </div>
+                            <div class="box-name"><a href="#">Kĩ thuật trồng hoa hồng trong chậu</a></div>
+                        </div>
+                        <div class="newsbox">
+                            <div class="box-img">
+                                <a href="#">
+                                    <img src="assets/images/img-news-6.jpg" alt="" /></a>
+                            </div>
+                            <div class="box-name"><a href="#">Kĩ thuật trồng hoa hồng trong chậu</a></div>
+                        </div>
+                        <div class="newsbox">
+                            <div class="box-img">
+                                <a href="#">
+                                    <img src="assets/images/img-news-7.jpg" alt="" /></a>
+                            </div>
+                            <div class="box-name"><a href="#">Kĩ thuật trồng hoa hồng trong chậu</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cphBottom" runat="Server">
+</asp:Content>
+
